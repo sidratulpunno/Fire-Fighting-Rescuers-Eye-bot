@@ -18,15 +18,14 @@ source completely put out the fire. The robot also has an ESP
 device, where a machine learning algorithm processes the data
 and detects the fire regions in the images.
 B. Monitoring Mode
-This mode is activated when the robot needs to find and
-help the injured people in the disaster area. We use a Bluetooth
+This mode is activated when the robot needs to find the injured people in the disaster area. We use a Bluetooth
 module (HC 06) to communicate with the robot and control its
 movement through our input. The robot also uses the ESP 32
 cam module to take pictures of its surroundings and compare
 them with a database of human faces. If the robot finds a
 match, it means that it has found a person. The robot then
 takes a photo of the person and uploads it to Google Drive,
-where we can access it and provide assistance. If the robot
+where users can access it and provide assistance. If the robot
 does not find a match, it means that there is no person in that
 area. The robot then continues to move forward and search
 for other people.
