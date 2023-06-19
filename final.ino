@@ -139,7 +139,7 @@ void turnRight(){
    
    
 } 
- 
+
 void turnLeft(){ 
  
   digitalWrite(LeftMotorBackward, HIGH); 
@@ -156,6 +156,7 @@ void turnLeft(){
   digitalWrite(LeftMotorBackward, LOW); 
   digitalWrite(RightMotorBackward, LOW); 
 } 
+// autonomous mode function 
 void flame(){  
    Serial.print("distance  "); 
    Serial.println(distance); 
